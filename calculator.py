@@ -3,7 +3,7 @@ import re
 import os
 
 # Adding the regex pattern to find the operators
-patt = re.compile(r"(\d+)[ \t]*([^\w\s])[ \t]*(\d+)")
+patt = re.compile(r"(-?\d+)[ \t]*([^\w\s])[ \t]*(-?\d+)")
 PADDING = ">"
 # The following code loads all the operators dynamically, this is kind of a bad practice but I had to add it for your
 # exercise
