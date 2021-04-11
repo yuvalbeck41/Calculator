@@ -1,2 +1,5 @@
+from calculator import Calculator
+
 if __name__ == "__main__":
-    print("Hello World")
+    calc = Calculator()
+    calc.run()  # We run the calculator
