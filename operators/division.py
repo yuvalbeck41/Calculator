@@ -10,4 +10,5 @@ class Division(operator.Operator):
         super().__init__('/')
 
     def act(self, x: int, y: int) -> int:
+        # Here is a nice comment
         return x / y
