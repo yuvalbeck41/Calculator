@@ -11,4 +11,7 @@ class Division(operator.Operator):
 
     def act(self, x: int, y: int) -> int:
         # Here is a nice comment
-        return x / y
+        try:
+            return x / y
+        except ZeroDivisionError:
+            return "Error - division By zero is not allowed"
